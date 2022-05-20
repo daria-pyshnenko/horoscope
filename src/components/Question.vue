@@ -106,11 +106,11 @@ export default {
       isChose(key) {
         let selectMenus = document.querySelectorAll('select');
         if (selectMenus[key].className === 'selectedVariant') {
-          this.formReady = false
+          this.formReady = false;
         }
       },
       changeSelect(e, key) {
-        this.selectedDate.push(e.target.value);
+        this.selectedDate[key]=e.target.value;
         if (this.isDateFull) {
           this.formReady = true;
           this.imgNameConstructor()
