@@ -110,7 +110,7 @@ export default {
         }
       },
       changeSelect(e, key) {
-        this.selectedDate.push(e.target.value);
+        this.selectedDate[key]=e.target.value;
         if (this.isDateFull) {
           this.formReady = true;
           this.imgNameConstructor()
