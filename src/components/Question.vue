@@ -82,6 +82,8 @@ export default {
     isDateFull() {
       return this.selectedDate.length === this.chooseBirthday.length
           && this.selectedDate[this.selectedDate.length - 2] !== undefined
+      && this.selectedDate[this.selectedDate.length - 3] !== undefined
+
     }
   },
   methods: {
