@@ -1,9 +1,14 @@
-##!/usr/bin/env sh
-#set -e
-#npm run build
-#cd dist
-#dit init
-#get add -A
-#git commit -m "New Deployment"
-#git push -f https://github.com/daria-pyshnenko/horoscope master:gh-pages
-#cd-
+#!/usr/bin/env sh
+# abort on errors
+set -e
+# build
+npm run build
+# navigate into the build output directory
+cd dist
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
+git init
+git add -A
+git commit -m 'deploy'
+git push -f git@github.com:daria-pyshnenko/horoscope.git master:gh-pages
+cd -
