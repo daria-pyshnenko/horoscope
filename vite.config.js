@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 // })
 
 module.exports =   defineConfig({
-  base: '/horoscope/',
+  base: './',
   plugins: [vue()],
   // publicPath: './dist/', //process.env.NODE_ENV === "production" ? "/horoscope/" : "/",
 })
