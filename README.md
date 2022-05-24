@@ -1,1 +1,0 @@
-My test project on Vue, Vuex with axios
