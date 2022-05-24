@@ -1,7 +1,7 @@
 <template>
     <div class="images-block">
-      <img class="backImage" src="../../img/2_girl.png" alt="">
-      <img class="fontImage" src="../../img/1_circle.png" alt="">
+      <img class="backImage" src="../../assets/img/2_girl.png" alt="">
+      <img class="fontImage" src="../../assets/img/1_circle.png" alt="">
     </div>
     <div class="description">
       <h2 class="blue-text">

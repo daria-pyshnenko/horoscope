@@ -29,7 +29,7 @@
         <span>Пожалуйста, выберите ответ</span>
       </div>
       <div class="zodiacSign" v-if="formReady">
-        <img :src="'./img/' + imgName +'.png'" alt="">
+        <img :src="'./assets/img/' + imgName +'.png'" alt="">
         <span>{{ imgName }}</span>
       </div>
     </form>

@@ -45,7 +45,7 @@ p{
   margin-bottom: 25px;
 }
 button, button:hover{
-  background-image: url("../img/Vector.png");
+  background-image: url("../../assets/img/Vector.png");
   background-repeat: no-repeat;
   background-position: 10% 50%;
 }
